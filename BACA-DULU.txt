@@ -1,0 +1,15 @@
+CARA MENDAPATKAN FILE APK (gratis, tanpa install apa pun di HP/PC)
+
+1. Buat akun di github.com, lalu buat repository baru (boleh Private).
+2. Upload SEMUA isi folder ini ke repository tersebut.
+   Pastikan folder .github/workflows/build.yml ikut terupload.
+   Kalau folder .github tidak ikut: di GitHub pilih Add file > Create new file,
+   ketik nama .github/workflows/build.yml lalu tempel isi file build.yml.
+3. Buka tab Actions. Proses "Build APK" jalan otomatis (sekitar 5 menit).
+   Kalau tidak jalan, pilih Build APK lalu Run workflow.
+4. Setelah hijau, klik prosesnya, turun ke bagian Artifacts,
+   unduh asisten-neon-apk, ekstrak zip-nya, hasilnya app-debug.apk.
+5. Kirim ke HP, buka file APK, izinkan "Install dari sumber tidak dikenal".
+
+Catatan: aplikasi butuh internet saat pertama dibuka agar font neon termuat.
+Tombol Simpan file di menu Pengunduh dan Foto bisa tidak jalan di dalam APK.
